@@ -6,9 +6,11 @@ contract ExampleViewPure {
     uint public myStorageVariable;
 
     // modifying state requires gas, concurrent operation requires mining and doesnt return values
-    // reading values is free anmd dont need mining, view/ pure
+    // reading values is free and dont need mining, view/ pure -> read from local blockchain node
     
-    
+    // public/ private
+    // external = can be called from other contract/ externally
+    // internal = can only be called from contract itself or derived contract, cannot be invoked by txn
 
     // view = access state variables
     function getMyStorageVariable() public view returns(uint) {

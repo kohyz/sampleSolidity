@@ -78,11 +78,11 @@
 	},
 	"sources": {
 		"Sample/ExampleConstructor.sol": {
-			"keccak256": "0x98b1140fde1446590f4bb5c0f0b3159cc0cef37e23a052adf13563e8aa9cd1ea",
+			"keccak256": "0xdb6d4247bb8dc6daee7d4d56f8a5e3e4eac62918eb9b43901ffe1da5a30e0e1f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d4ba93c6706d91cf2a62ab84aed01e38d6167baca45689bf3d5f4517d66f6289",
-				"dweb:/ipfs/QmVwvmvkkjqCgAmtePc1QdMj9myJob4MmyzPpYTGqcrite"
+				"bzz-raw://b017db840a282414bb49beaba48954bc1a4c3d782de4adf7e63d38c3eba6c070",
+				"dweb:/ipfs/QmcKNsRvnH92QfXhjF9v8s6s31D7TdwZ7E37GYdM4dNrXB"
 			]
 		}
 	},

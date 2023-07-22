@@ -6,34 +6,30 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "decrementInt",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "fallback"
 			},
 			{
 				"inputs": [],
-				"name": "incrementInt",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incrementUint8",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myInt",
+				"name": "lastFunctionCalled",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "string",
 						"name": "",
-						"type": "int256"
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lastValueSent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -53,36 +49,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "myUint8",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myint8",
-				"outputs": [
-					{
-						"internalType": "int8",
-						"name": "",
-						"type": "int8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_myUint",
+						"name": "_myNewUint",
 						"type": "uint256"
 					}
 				],
@@ -90,6 +60,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -105,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Sample/ExampleUint.sol": "ExampleUint"
+			"Sample/SampleFallback.sol": "SampleFallBack"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -119,12 +93,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Sample/ExampleUint.sol": {
-			"keccak256": "0xaf5030ed492a1dca6c530a98e263b3e397a76c8bea5a903d8071a791c500d09e",
+		"Sample/SampleFallback.sol": {
+			"keccak256": "0xfd65d415f6a5868d1c15954f9d27243a6617ff0f95034b88ae5701962f95b694",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://39f450a4f7ff6dea0030a97eb5565b436037a5a05d1dccf31c7c8f85d96db52d",
-				"dweb:/ipfs/QmSrumcmxwB5JJnRZAN5ckwEoXobpjAWRS8g24ExMRVkk7"
+				"bzz-raw://8050221b4ed2a57642bf332e7674924547e01addb5276a88384b4fa04a1ae1aa",
+				"dweb:/ipfs/QmQg7CmEo28YeNsKEx9Gi4PTgSjxtJLPpa9sTYSvP31FLx"
 			]
 		}
 	},

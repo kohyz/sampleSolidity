@@ -97,11 +97,11 @@
 	},
 	"sources": {
 		"Sample/ExampleViewPure.sol": {
-			"keccak256": "0xb331fdd7a70d1eb0de35f6275dd9eebc0f5686e9e1b9d409f7635e8ce8c5b5b8",
+			"keccak256": "0xee510d35960649813d579e6786f53da1ce23353f01611d17d0e4c71af75e5a9d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9cf2a50bc1e0ed2badcde4c28bc1343e03d0bdef3ade54d5ba0e8d00a9e0baa9",
-				"dweb:/ipfs/QmTtnHiUvyWXdMwu9BsHVP6G79D8kWRupG7Nio3ve3GRmg"
+				"bzz-raw://97e5032a921d80eac2b8b3432ed1d1052252527ce2ba1269adf91d2795f56ac0",
+				"dweb:/ipfs/QmertSxjxRr5Za9rALy2Cu3araBKZk192t5FLsTXKyCxnx"
 			]
 		}
 	},

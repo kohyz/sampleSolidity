@@ -5,6 +5,7 @@ contract ExampleConstructor {
 
     address public myAddress;
 
+    // either public or internal
     constructor (address _someAddress) {
         // can only be called once, cannot be overloaded. Automatic
         myAddress = _someAddress;
