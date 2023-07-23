@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "payContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payment",
+				"outputs": [
+					{
+						"internalType": "contract PaymentReceived",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Sample/ExampleStructs.sol": "ExampleStructs"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Sample/ExampleStructs.sol": {
+			"keccak256": "0x755429d890de216f1d20bbb6af4553753c2eecdb50bc2a15a3559dd860d9c9f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6d81f580e3c78bf192c070c5791bd8365fbe1a1e48a12d2a701a4e764033f06",
+				"dweb:/ipfs/QmRcRxescd8FpeczB4wM3NuHCUJZQuQpyELYNMPptgg3za"
+			]
+		}
+	},
+	"version": 1
+}

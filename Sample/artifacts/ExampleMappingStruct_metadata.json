@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "depositMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Sample/ExampleMappingStruct.sol": "ExampleMappingStruct"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Sample/ExampleMappingStruct.sol": {
+			"keccak256": "0xc273f6f27f331a81a0ea9c3aa989eeb35b5f7e325337916db617305134e955a3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1da4eb32966707276432e96c18532c7d63934cd2e0b2c39a657a9b027991c76a",
+				"dweb:/ipfs/QmP6QNYTnjVbQ5u9daUqoUcc3UR2t2RnG1A4tGHzGwqK4D"
+			]
+		}
+	},
+	"version": 1
+}
